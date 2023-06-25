@@ -1,0 +1,858 @@
+.encabezado header{
+   
+  margin-top: 0px;
+/* Gradiente lineal */
+background-image: linear-gradient(to bottom, #ff3392, #5b83d3,#ec6414);
+
+  font-size: 1em;
+  padding: -10px;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 10;
+  z-index: 9999;
+  width: 100%;
+  
+}
+header img{
+ 
+    width: 50px; 
+    height: 50px; 
+
+}
+  
+
+nav {
+  position: relative;
+ 
+  
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: 1em;
+  padding: 5fpx;
+  color: rgb(245, 12, 12);
+  margin-top: 80px;
+  
+  
+  
+}
+
+ul.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+ul.menu li:hover > ul.submenu {
+  display: block;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  
+  
+}
+
+ul.submenu li {
+  display: block;
+  background-color: #141111;
+  border-bottom: 1px solid #df0c0c;
+  width: 150px;
+ 
+ 
+}
+
+ul.submenu li:last-child {
+  border-bottom: none;
+}
+
+.menu li.active a{
+	color:rgb(17, 17, 17);
+}
+.menu li a:hover{
+	background-color: rgb(239, 245, 238);
+	color: rgb(243, 6, 6);
+   
+}
+ul.submenu li a:hover{
+  width: 60%;
+
+}
+  
+
+  .menu li a{
+    padding: 35px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+    
+  
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e91a1a;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    display: none;
+    top: 50%;
+    
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav {
+  background-color: #fff;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+  display: none;
+ 
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  
+}
+  
+
+  .posicion{
+    position: absolute;
+    
+    transform: translate();
+
+  }
+.slider{
+  background-image:   url(https://1.bp.blogspot.com/-7iGrP8L2X6o/UaPOQ3o6cjI/AAAAAAAAWn4/6ntwOyCMjMU/s320/comunicacion+no+verbal1.jpg);
+
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  right: 10;
+  left: 0;
+  top: 100.5px;
+ 
+ 
+
+  
+  animation: animate 10s infinite;
+  
+}
+@keyframes animate{
+  20%{
+    background-image: url(https://www.aulafacil.com/uploads/cursos/782/editor/comunicacic3b3n-no-verbal.es.jpg);
+    background-size: cover;
+  }
+  40%{
+    background-image: url(https://lamenteesmaravillosa.com/wp-content/uploads/2013/07/comunicacion-no-verbal.jpg);
+    background-size: cover;
+  }
+  60%{
+    background-image: url(https://th.bing.com/th/id/R.c8f8bbf7c05a8ec6404bf5b4cec3f885?rik=tTKG5KEd6pqZiQ&pid=ImgRaw&r=0);
+    background-size: cover;
+  }
+  80%{
+    background-image: url(https://th.bing.com/th/id/R.fb852e143332c7a97193808eb448bca7?rik=DqOs9a2mJYFw%2bA&riu=http%3a%2f%2fescueladefamilias.lasalle.es%2fwp-content%2fuploads%2f2018%2f11%2fgirl-covering-face-with-white-boards-set-of-PQ8XT4S.jpg&ehk=F43scw8t7nwMwsdDqJRXJYe1fDZFxnEE44%2bXl6VA3RI%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+  }
+  100%{
+    background-image: url(https://1.bp.blogspot.com/-7iGrP8L2X6o/UaPOQ3o6cjI/AAAAAAAAWn4/6ntwOyCMjMU/s320/comunicacion+no+verbal1.jpg);
+    background-size: cover;
+  }
+}
+  
+ #tema,#informacion{
+    color: rgb(10, 10, 10);
+    float: center;
+    text-shadow: 2px 2px 5px red;
+ }
+
+#uno{
+    width: 26%;
+	float: left;
+	padding: 6px;
+    background-color: white;
+    
+}
+#dos{
+    width: 30.4%;
+	float: left;
+	padding: 6px;
+    background-color: white;
+
+}
+#contenido aside{
+    width: 40.5%;
+	float: left;
+	padding: 6px;
+    background-color: white;
+}
+ footer{
+  
+    clear:both;
+	width: 93.8%;
+	background-image: linear-gradient(to bottom, #ff3392, #5b83d3,#ec6414);;
+	height: 100px;
+	padding: 50px;
+  right: 10px;
+  
+}
+ footer ul{
+  list-style: none;
+
+}
+#menu2 {
+  width: 100%;
+  background-color: #11ec86;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  top: 1000;
+}
+
+#menu2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu2 ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#menu2 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#menu2 ul li a:hover {
+  color: #FF3392;
+}
+
+#integrantes {
+  margin: 0;
+}
+
+#menu3 {
+  width: 100%;
+  background-color: #11ec86;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  top: 1400;
+}
+
+#menu3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu3 ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#menu3 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#menu3 ul li a:hover {
+  color: #FF3392;
+}
+
+#menu4 {
+  width: 100%;
+  background-color: #11ec86;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  top: 1100;
+}
+
+#menu4 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu3 ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#menu3 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#menu3  ul li a:hover {
+  color: #FF3392;
+}
+
+#integrantes {
+  margin: 0;
+}
+#integrantes {
+  margin: 0;
+}
+
+.imagen_logo {
+  width: 100px;
+  height: 100px;
+}
+
+
+#menu li:hover > ul {
+    display:block;
+}
+
+#uno h3{
+color: rgb(20, 19, 19);
+text-shadow: 2px 2px 5px red;
+}
+#dos h3{
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 5px red;
+
+}
+#contenido aside h3{
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 5px red;
+}
+
+#contenido {	
+	max-width: 1180px;
+	position: relative;
+	top: 110px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 2%;
+}
+#cuatro{
+    width: 100%;
+	float: left;
+	padding: 6px;
+    background-color: white;
+
+}
+#cuatro h3{
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 5px red;
+
+}
+.parrafo{
+font-weight: bold;
+    color: rgb(15, 14, 14);
+    width: 100%;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, fantasy;}
+
+#borde_p{
+        border: 1px solid #99c;
+        }
+#imagen{
+    padding: 50px;
+    background-color: rgb(253, 250, 252);
+    opacity: 0.4px;
+    top: 10%;
+}
+
+
+footer img{
+  float:center;
+  width: 100px; 
+  height: 100px; 
+
+}
+aside #menu_abajo{
+  float:center;
+  padding: 200px;
+  color: #ec1b1b;
+
+}
+#contenido aside {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: -999;
+}
+footer section {
+  float: left;
+  width: calc(33.33% - 10px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.menu_abajo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_abajo li {
+  margin-right: 10px;
+}
+
+.submenu_abajo li {
+  display: block;
+}
+
+#integrantes {
+  font-size: 14px;
+  margin: 0;
+  padding-left: 165;
+}
+
+.imagen_logo {
+  max-width: 100%;
+  padding-left: 999px;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna {
+  flex: 1 1 5%;
+  padding: 5px;
+}
+
+.posicion2{
+  position: absolute;
+  
+  transform: translate();
+
+}
+.slider2{
+  background-image: url(https://th.bing.com/th/id/R.2223b4b7b038bf9e496abf89c35ed8e1?rik=xUwD10US6nNRHg&riu=http%3a%2f%2finfodelnea.com.ar%2fwp%2fwp-content%2fuploads%2f2019%2f04%2fLa-voz-genera-muchos-beneficios.jpg&ehk=10Ob%2fglyQZ4Sp4eGA%2f7QbvKdTPbMZ6GoDsLFhDEKOMk%3d&risl=&pid=ImgRaw&r=0);
+  
+
+background-size: cover;
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  right: 10;
+  left: 0;
+  top: 100.5px;
+
+
+
+
+animation: animate 10s infinite;
+
+}
+@keyframes animate{
+20%{
+  background-image: url(https://th.bing.com/th/id/R.2223b4b7b038bf9e496abf89c35ed8e1?rik=xUwD10US6nNRHg&riu=http%3a%2f%2finfodelnea.com.ar%2fwp%2fwp-content%2fuploads%2f2019%2f04%2fLa-voz-genera-muchos-beneficios.jpg&ehk=10Ob%2fglyQZ4Sp4eGA%2f7QbvKdTPbMZ6GoDsLFhDEKOMk%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+}
+40%{
+  background-image: url(https://th.bing.com/th/id/OIP.S5af5un3OXu1D-Jy9_-9-QHaC5?pid=ImgDet&rs=1);
+  background-size: cover;
+}
+60%{
+  background-image: url(https://th.bing.com/th/id/OIP.aj-NAJ1Xyh-Eg2ubcFU0zgHaEf?pid=ImgDet&rs=1);
+  background-size: cover;
+}
+80%{
+  background-image: url(https://th.bing.com/th/id/OIP.IC9cTYxNJrliRzGUG26euwHaEo?pid=ImgDet&rs=1);
+  background-size: cover;
+}
+100%{
+  background-image: url(https://th.bing.com/th/id/OIP.LJ0npHvhUKAtJgwW8t0jhwHaE_?pid=ImgDet&rs=1);
+  background-size: cover;
+}
+}
+
+.parrafo1{
+
+font-weight: bold;
+background-color: rgb(145, 243, 243);
+    color: rgb(15, 14, 14);
+    width: 50%;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, fantasy;
+    box-shadow: #df0c0c}
+
+#borde_p1{
+        border: 1px solid #99c;
+        box-shadow: 10px 5px 5px red;
+        }
+#img_tema {
+          width: 500px; /* ajustar el tamaño de la imagen según tus preferencias */
+          float: right;
+          margin: 0 0 20px 20px; /* ajustar los márgenes según tus preferencias */
+          box-shadow: 3px 3px rgb(231, 117, 9), -1em 0 .4em rgb(12, 228, 30);
+        }
+#tabla {
+          margin-top: 20px; /* Mueve la tabla 50px hacia abajo */
+          border-collapse: collapse; /* Combina los bordes de las celdas de la tabla */
+          border-style:dotted;
+          width: 100%; /* Establece el ancho de la tabla al 100% del ancho del contenedor */
+        }
+        
+#tabla th, #tabla td {
+          border: 1px solid black; /* Establece un borde de 1px para todas las celdas de la tabla */
+          padding: 8px; /* Añade un relleno de 8px a todas las celdas de la tabla */
+          text-align: center; /* Alinea el texto a la izquierda en todas las celdas de la tabla */
+        }
+ #tabla {
+          margin-top: 10px;
+        }
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        }
+        
+        th {
+          background-image: linear-gradient(to bottom, #5bd361,#f8f3ef);
+          color: #e65512;
+          font-weight: bold;
+          padding: 10px;
+          
+        }
+        
+        td {
+          border: 6px solid #f10f0f;
+          padding: 8px;
+          background-image: linear-gradient(to bottom, #5b83d3,#faf4f0);
+        }
+        
+        
+        
+        table {
+          border-collapse: collapse; /* combina los bordes de las celdas adyacentes */
+           text-align: center;
+        }
+        
+        
+        .pequeña {
+          width: 255px;
+          padding: 0px;
+        }
+        #animation-container {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .container {
+          width: 350px;
+          height: 350px;
+          border: 2px solid #333;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          position: absolute;
+          top: 155%;
+          left: 50%;
+          background-color: aqua;
+          transform: translate(-50%, -50%);
+        }
+        
+        .bounce {
+          font-size: 40px;
+          position: relative;
+          animation-name: bounce;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          animation-iteration-count: infinite;
+        }
+        
+        @keyframes bounce {
+          0% {
+            top: 0;
+          }
+          25% {
+            top: -50px;
+          }
+          50% {
+            top: 0;
+          }
+          75% {
+            top: -25px;
+          }
+          100% {
+            top: 0;
+          }
+        }
+        .img1{
+          float: left;
+          margin-top: 130;
+          padding-left: 80;
+        }
+        .img2{
+          width:400;
+          float: right;
+       padding-right: -180;
+          margin-top: 100;
+          height: 350;
+
+        }
+        #cinco{
+          width: 100%;
+        float: left;
+        padding: 6px;
+          background-color: white;
+      
+      }
+      #cinco h3{
+          color: rgb(7, 7, 7);
+          text-shadow: 2px 2px 5px red;
+      
+      }
+      #seis{
+        width: 45%;
+      float: left;
+      padding: 6px;
+        background-color: white;
+    
+    }
+    #seis h3{
+        color: rgb(7, 7, 7);
+        text-shadow: 2px 2px 5px red;
+    
+    }
+
+    #siete{
+      width: 45%;
+    float: right;
+    padding: 6px;
+      background-color: white;
+  
+  }
+  #siete h3{
+      color: rgb(7, 7, 7);
+      text-shadow: 2px 2px 5px red;
+  
+  }
+
+  #ocho{
+    width: 100%;
+  float: left;
+  padding: 6px;
+    background-color: white;
+
+}
+#ocho h3{
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 5px red;
+
+}
+#nueve{
+  width: 80%;
+float: left;
+padding: 6px;
+  background-color: white;
+
+}
+#nueve h3{
+  color: rgb(7, 7, 7);
+  text-shadow: 2px 2px 5px red;
+
+}
+.img3{
+  width: 300px;
+  height: 300px;
+  float: left;
+  padding-left: 440px;
+  margin-top: 0;
+}
+#nueve{
+  width: 30%;
+float: left;
+padding: 6px;
+  background-color: white;
+  margin-top: -299;
+
+}
+#nueve h3{
+  color: rgb(7, 7, 7);
+  text-shadow: 2px 2px 5px red;
+}
+
+  #dies{
+    width: 30%;
+  float: right;
+  padding: 6px;
+    background-color: white;
+    margin-top: -300;
+  
+  }
+  #dies h3{
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 5px red;}
+
+    .img4{
+      width: 300px;
+    }
+    .img5{
+      width: 200px;
+      padding-left: 70px;
+
+    }
+    .img6{
+      width: 400px;
+      padding-left: 370;
+    }
+
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    .tabla_img img{
+      width: 200px;
+      flex: auto;
+      display: flex;
+
+    }
+    .tabla_img{
+      width: 200px;
+    }
+ 
+
+
+        
+                
+                
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
